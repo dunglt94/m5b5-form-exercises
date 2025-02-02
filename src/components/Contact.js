@@ -6,7 +6,7 @@ const Contact = () => {
         email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
     };
 
-    const [form, setForm] = useState({})
+    const [form, setForm] = useState({});
 
     const handleChange = (e) => {
         setForm({...form, [e.target.name]: e.target.value});
@@ -33,7 +33,7 @@ const Contact = () => {
     }
 
     const handleSubmit = () => {
-        alert("Add contact successfully!!!")
+        alert("Add contact successfully!!!");
     }
 
     return (

@@ -2,6 +2,7 @@ import {Routes, Route, Link} from "react-router-dom";
 import './App.css';
 import Contact from "./components/Contact";
 import Library from "./components/Library";
+import Mail from "./components/Mail";
 
 function App() {
     return (
@@ -21,7 +22,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Contact />} />
                 <Route path="/library" element={<Library />} />
-                {/* <Route path="/mail" element={<Mail />} /> */}
+                 <Route path="/mail" element={<Mail />} />
             </Routes>
         </div>
     );
